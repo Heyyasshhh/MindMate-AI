@@ -1,0 +1,1 @@
+"""MindMate AI backend package."""
