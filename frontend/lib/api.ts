@@ -20,6 +20,17 @@ export type JournalEntry = {
   analysis: JournalAnalysis;
 };
 
+export type MoodLog = {
+  id: string;
+  mood_score: number;
+  energy_level?: number | null;
+  sleep_hours?: number | null;
+  study_hours?: number | null;
+  stress_level?: number | null;
+  note?: string | null;
+  created_at: string;
+};
+
 export type DashboardSummary = {
   mood_average: number;
   journal_streak: number;
